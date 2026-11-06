@@ -1,0 +1,25 @@
+# ---- 数据（受许可约束，禁止提交） ----
+data/raw/
+data/cache/
+*.pkl
+*.feather
+*.h5
+
+# 由 06 脚本生成的中间产物
+reports/assets.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx
